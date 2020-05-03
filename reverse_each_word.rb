@@ -1,6 +1,6 @@
 require 'pry'
 
-def reverse_each_word(string)
-  array.collect { |string| string == string.reverse }      
+def reverse_each_word(sentence)
+  sentence.collect { |string| string.reverse }      
 end
 binding.pry

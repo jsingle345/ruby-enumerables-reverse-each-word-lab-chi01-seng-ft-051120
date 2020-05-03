@@ -2,5 +2,5 @@ require 'pry'
 
 def reverse_each_word(string)
   array = string.split(" ")
-  array.collect { |string| string.reverse }, string.join(" ") 
+  array.collect { |string| string.reverse } string.join(" ") 
 end
